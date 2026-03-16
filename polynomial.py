@@ -208,6 +208,3 @@ class Polynomial:
             return string+'x'
         else:
             return string + f'x^{degree}'
-c= Polynomial([1,2,4])
-print(c)
-print(c[3])
